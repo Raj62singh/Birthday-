@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Vaishnavi 🎂</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <style>
+        body {
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #8b008b;
+            text-shadow: 2px 2px 5px #ff69b4;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+        .nav-links a {
+            margin: 0 10px;
+            color: #6a5acd;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎉 Happy Birthday, Pagl! 🎉</h1>
+    <p>Wishing you endless joy, love, and sweet memories!</p>
+    <img src="{% static 'D:\IMP Documents Raz\birthday spcl\birthday_website\birthday_app\static\image\cake.png' %}" alt="Birthday Cake">
+    <img src="{% static 'birthday_website\birthday_app\static\image\vaisuu1.jpg' %}" alt="Random Full Pic">
+    <div class="nav-links">
+        📷 <a href="/gallery/">See Memories</a> | 💌 <a href="/quotes/">Love Quotes</a>
+    </div>
+</body>
+</html>

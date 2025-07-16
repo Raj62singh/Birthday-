@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            background-color: #fff5f8;
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
+        }
+        h2 {
+            text-align: center;
+            color: #d63384;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h2>📸 Birthday Memories</h2>
+    <div class="gallery">
+        <img src="{% static 'D:\IMP Documents Raz\birthday spcl\birthday_website\birthday_app\static\image\1.jpg' %}" alt="Gallery 1">
+        <img src="{% static 'D:\IMP Documents Raz\birthday spcl\birthday_website\birthday_app\static\image\2.jpg' %}" alt="Gallery 2">
+        <img src="{% static 'D:\IMP Documents Raz\birthday spcl\birthday_website\birthday_app\static\image\3.jpg' %}" alt="Gallery 3">
+    </div>
+</body>
+</html>

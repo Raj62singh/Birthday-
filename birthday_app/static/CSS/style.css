@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #ffe4ec, #e0f7fa);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  padding: 20px;
+}
+
+.glow {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff00aa;
+  text-shadow: 0 0 10px #ff77cc, 0 0 20px #ff77cc, 0 0 30px #ff77cc;
+  margin-top: 20px;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ff77cc;
+  }
+  to {
+    text-shadow: 0 0 25px #ff00aa, 0 0 30px #ff77cc;
+  }
+}
+
+.wish-text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.cake {
+  width: 200px;
+  margin: 10px auto;
+  display: block;
+}
+
+.photo-container {
+  margin-top: 20px;
+}
+
+.vaishnavi-img {
+  width: 90%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  background: #ff69b4;
+  color: white;
+  padding: 12px 25px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: background 0.3s ease;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #ff1493;
+}

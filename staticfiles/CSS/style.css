@@ -1,0 +1,13 @@
+body {
+  background-image: url('/static/img/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+h1 {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from { text-shadow: 0 0 10px #ff66cc; }
+  to { text-shadow: 0 0 20px #ff3399, 0 0 30px #ff66cc; }
+}
